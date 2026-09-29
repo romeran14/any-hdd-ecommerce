@@ -1,0 +1,52 @@
+ # Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build and dependency directories
+node_modules/
+dist/
+build/
+out/
+coverage/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# .NET artifacts
+bin/
+obj/
+
+# Java artifacts
+target/
+*.class
+
+# Go build artifacts
+*.exe
+*.test
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
